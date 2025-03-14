@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use("/auth", authRoutes);
+app.use("/", authRoutes);
 
 // app.listen(5001, () => console.log("Auth Service running on port 5001"));
 
